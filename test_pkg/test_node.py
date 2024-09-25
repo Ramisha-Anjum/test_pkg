@@ -130,8 +130,6 @@ class MyNode(Node):
 
     def motion(self):
         for i in range(num_robot):
-            # self.robot_pos_old[0,i] = self.x_val[i]
-            # self.robot_pos_old[1,i] = self.y_val[i]
             self.states_old[0,i] = self.x_val[i]
             self.states_old[1,i] = self.y_val[i]
             self.states_old[2,i] = self.x_val_velocity[i]
